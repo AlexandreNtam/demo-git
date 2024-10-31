@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--David Alexandre-->
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>Commande</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="flexbox" id="hautpage">
+                <a href="index.html"><img src="img/logo_mambtech.png" alt="Logo" title="MambTech"></a>
+                <h1>Mambe Technologie</h1>
+            </div>
+        </header>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="Nos-Produits.html">Nos produits</a></li>
+                    <li><a href="commande.html" class="active">Commander</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="connexion.html">Connexion</a>
+            </div>
+        </div>
+        <main>
+            <form action="mailto:alexandrentam8@gmail.com">
+                <h2>Formulaire de commande</h2>
+                <div>
+                    <fieldset>
+                        <legend>
+                            <h3>Information de livraison</h3>
+                        </legend>
+                        <div>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </div>
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div>
+                            <label for="mail">Adresse courriel :</label>
+                            <input type="email" name="mail" id="mail" required>
+                        </div>
+                        <div>
+                            <label for="telephone">Numéro de téléphone :</label>
+                            <input type="tel" name="telephone" id="telephone" placeholder="###-###-####">
+                        </div>
+                        <div>
+                            <label for="date">Date de naissance :</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div>
+                            <label for="province">Province :</label>
+                            <select name="province" id="province">
+                                <option value="Alberta">Alberta</option>
+                                <option value="Colombie-Britannique">Colombie-Britannique</option>
+                                <option value="Île-du-Prince-Édouard">Île-du-Prince-Édouard</option>
+                                <option value="Manitoba">Manitoba</option>
+                                <option value="Nouveau-Brunswick">Nouveau-Brunswick</option>
+                                <option value="Nouvelle-Écosse">Nouvelle-Écosse</option>
+                                <option value="Ontario">Ontario</option>
+                                <option value="Québec" selected>Québec</option>
+                                <option value="Saskatchewan">Saskatchewan</option>
+                                <option value="Terre-Neuve-et-Labrador">Terre-Neuve-et-Labrador</option>
+                                <option value="Territoires du Nord-Ouest">Territoires du Nord-Ouest</option>
+                                <option value="Nunavut">Nunavut</option>
+                                <option value="Yukon">Yukon</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="commentaire">Commentaire :</label>
+                            <textarea name="commentaire" id="commentaire" cols="32" rows="7"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <h3>Votre avis</h3>
+                        </legend>
+
+                        <h4>Quel produit aimeriez-vous ?</h4>
+                        <label for="MambAssistant">The MambAssistant</label>
+                        <input type="checkbox" id="MambAssistant" name="produits" value="MambAssistant">
+                        <br>
+
+                        <label for="MambWatch">MambWatch</label>
+                        <input type="checkbox" id="MambWatch" name="produits" value="MambWatch">
+                        <br>
+
+                        <label for="MambPhone">MambPhone</label>
+                        <input type="checkbox" id="MambPhone" name="produits" value="MambPhone">
+                        <br>
+
+                        <label for="MambCam">MambCam</label>
+                        <input type="checkbox" id="MambCam" name="produits" value="MambCam">
+                        <br>
+
+                        <label for="MambTV">MambTV</label>
+                        <input type="checkbox" id="MambTV" name="produits" value="MambTV">
+                        <br>
+
+                        <label for="TrotinetteMambe">Trotinette Mambe</label>
+                        <input type="checkbox" id="TrotinetteMambe" name="produits" value="Trotinette-Mambe">
+
+                        <h4>Évaluez notre site Web</h4>
+                        <label for="note-excellent">Excellent</label>
+                        <input type="radio" id="note-excellent" name="note" value="Excellent" checked>
+                        <br>
+
+                        <label for="note-tres-bien">Très bien</label>
+                        <input type="radio" id="note-tres-bien" name="note" value="Très bien">
+                        <br>
+
+                        <label for="note-moyen">Moyen</label>
+                        <input type="radio" id="note-moyen" name="note" value="Moyen">
+                        <br>
+
+                        <label for="note-bof">Bof</label>
+                        <input type="radio" id="note-bof" name="note" value="Bof">
+                    </fieldset>
+
+                </div>
+                <div class="soumettre">
+                    <input type="submit" value="Envoyer les commentaires">
+                    <input type="reset" value="Réinitialiser">
+                </div>
+            </form>
+        </main>
+
+
+
+
+
+        <footer>
+            <p><a href="#hautpage" class="hautpage">Haut de page</a></p>
+            <p>copyright 2021</p>
+            <p class="code">420-W11-SF</p>
+            <p class="travailpratique">Travail Pratique 1</p>
+            <p class="nom">David Alexandre</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

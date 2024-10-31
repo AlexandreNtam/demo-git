@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    background-color: rgb(29, 39, 49);
+    
+}
+.page{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(412, 375, 255); 
+    
+}
+h1, h2, h3, h4{
+    color:rgb(29, 39, 49);
+}
+h2{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+header img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+}
+.flexbox h1{
+    margin-left: 120px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.navigation nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgb(29, 39, 49); ;
+    width: 100%;
+    height: 50px;
+}
+
+.navigation nav ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navigation nav ul li{
+    display: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+.navigation nav ul li a{
+    display: inline-block;
+    padding: 17px;
+    color: rgb(29, 39, 49); ;
+    text-decoration: none;
+    width: 200px;   
+}
+.navigation nav ul li a:hover{
+    background-color: rgb(229, 193, 85); 
+}
+.active{
+    background-color: rgb(229, 193, 85); 
+}
+.navigation div a{
+    display: inline-block;
+    padding: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 39, 49);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    border-top: solid 1px;
+    border-color:rgb(29, 39, 49); ;
+}
+footer .nom{
+    grid-column: 3;
+}
+footer .travailpratique{
+    grid-column: 2;
+}
+footer .code{
+    grid-row:2;
+    grid-column: 1;
+}
+.hautpage{
+    color:rgb(29, 39, 49); 
+}
+main{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contenu-page-principale{
+    display: flex;
+}
+.contenu-presentation{
+    display: flex;
+}
+.texte-presentation{
+ padding: 40px;
+ padding-bottom: 0px;
+}
+.presentation div img{
+    padding-top:  70px;
+    transition: transform 0.3s ease;
+}
+.presentation div img:hover{
+    transform: scale(1.1);
+}
+.article-similaire{
+    margin-left: 20px;
+}
+.contenu-article-similaire div{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 550px;
+}
+.contenu-article-similaire div p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*page des produits (galerie)*/
+
+.nos-produit-flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*page de commande (formulaire)*/
+
+form div{
+    display: flex;
+}
+form .soumettre{
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+form .soumettre input{
+    background-color:rgb(29, 39, 49) ;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 200px;
+}
+form .soumettre input:hover{
+    background-color:rgb(229, 193, 85) ;
+    color: rgb(29, 39, 49);
+    cursor: pointer;
+}
+fieldset{
+    width: 600px;
+    margin-bottom: 20px;
+}
+fieldset div{
+    margin-bottom: 20px;
+}
+fieldset input{
+    width: 250px;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+
+/*Page de connexion en construction*/
+
+.en-construction{
+    text-align: center;
+}
